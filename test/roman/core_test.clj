@@ -9,3 +9,7 @@
 (deftest test-ii
   (testing "convert 2 to II"
     (is (= "II" (convert 2)))))
+
+(deftest test-v
+  (testing "a non-I number, 5"
+    (is (= "V" (convert 5)))))
