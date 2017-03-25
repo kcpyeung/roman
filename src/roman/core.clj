@@ -1,4 +1,4 @@
 (ns roman.core)
 
 (defn convert [n]
-  "I")
+  (apply str (map (fn [_] "I") (range n))))
